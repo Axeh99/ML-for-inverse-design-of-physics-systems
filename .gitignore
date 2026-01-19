@@ -1,0 +1,23 @@
+# Ignore Excel files
+*.xls
+*.xlsx
+
+# Ignore data and text files
+*.dat
+*.txt
+
+# Ignore everything by default
+*
+
+# Do not ignore directories (needed so Git can traverse)
+!*/
+
+# Ignore all directories
+*/
+
+# Allow the software directory
+!software/
+!software/**
+
+# Allow this .gitignore file itself
+!.gitignore
